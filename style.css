@@ -1,0 +1,117 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 10em;
+    color: white;
+    padding-left: 50px;
+}
+
+p {
+    font-family: 'Patrick Hand SC', cursive;
+    color: white;
+    font-size: 1.3em;
+    letter-spacing: 4px;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    padding-left: 50px;
+}
+
+.enter {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 3em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    padding-left: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    padding-top: 22%;
+  list-style-type: none;
+    position: relative;
+}
+
+li {
+    display: block;
+}
+
+.left {
+    font-size: 1.5em;
+    letter-spacing: 4px;
+    font-family: 'Patrick Hand SC', cursive;
+    color: white;
+    margin-left: 30px;
+}
+
+.right {
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+}
+
+.navbar {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.container {
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+}
+
+.container1 {
+    width: 80%;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+
+
+.child {
+    width: 40%;
+    padding: 2%;
+    
+}
+
+.text {
+    width: 50%;
+    padding-top: 20%;
+}
+
+.ab {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1em;
+}
